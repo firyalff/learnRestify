@@ -1,0 +1,9 @@
+{
+	"local" : {
+		"app_name": [""],
+		"license_key": "",
+		"logging": {
+			"level": "info"
+		}
+	}
+}

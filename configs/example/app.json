@@ -1,0 +1,7 @@
+{
+	"local": {
+		"port": 8018,
+		"secret": "inibukanbatmanatausuperman",
+		"host": "http://localhost:8018"
+	}
+}

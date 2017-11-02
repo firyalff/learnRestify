@@ -1,0 +1,10 @@
+[
+	{
+		"prefix" : "/users"
+		, "middlewares" : []
+		, "routes" : [
+			["get", "/", "Users.multiUser" ],
+			["get", "/:id", "Users.oneUser" ]
+		]
+	}
+]

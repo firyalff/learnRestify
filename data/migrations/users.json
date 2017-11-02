@@ -1,0 +1,27 @@
+{
+	"tableName": "users",
+	"attributes": [
+		{
+			"name": "id",
+			"type": "integer",
+			"unsigned": true,
+			"nullable": false,
+			"autoIncrement": true,
+			"defaultValue": ""
+		}
+		, {
+			"name": "email",
+			"type": "",
+			"unsigned": true,
+			"nullable": false,
+			"autoIncrement": true,
+			"defaultValue": ""
+		}
+	],
+	"options": {
+		"usePrefixAttribute": true,
+		"prefix": "user",
+		"useTimeStamp": true,
+		"useSoftDelete": true
+	}
+}

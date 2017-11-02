@@ -1,0 +1,9 @@
+[
+	{
+		"prefix" : "/health"
+		, "middlewares" : []
+		, "routes" : [
+			["get", "/", "Health.check" ]
+		]
+	}
+]

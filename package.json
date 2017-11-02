@@ -1,0 +1,34 @@
+{
+  "name": "learnrestify",
+  "version": "1.0.0",
+  "description": "learning restify framework",
+  "main": "bin/www",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "restify",
+    "nodejs",
+    "node"
+  ],
+  "author": "firyalff",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.10.4",
+    "bookshelf-paranoia": "^0.11.0",
+    "google-spreadsheet": "^2.0.4",
+    "jsonwebtoken": "^8.1.0",
+    "knex": "^0.13.0",
+    "mysql": "^2.15.0",
+    "newrelic": "^2.3.1",
+    "node-restify-validation": "^1.1.1",
+    "restify": "^6.2.3",
+    "restify-cors-middleware": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "isparta": "^4.0.0",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}

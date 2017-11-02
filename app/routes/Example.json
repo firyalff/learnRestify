@@ -1,0 +1,16 @@
+[
+	{
+		"prefix" : "/v1/example"
+		, "middlewares" : []
+		, "routes" : [
+			["get", "/hello", "Example.sayHello" ]
+		]
+	}
+	, {
+		"prefix" : "/v2/example"
+		, "middlewares" : []
+		, "routes" : [
+			["get", "/shipment", "Example.sayHello" ]
+		]
+	}
+]

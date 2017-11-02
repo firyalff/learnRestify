@@ -1,0 +1,9 @@
+{
+	"local": {
+		"accessKeyId": "",
+		"secretAccessKey": "",
+		"region": "",
+		"bucket": "",
+		"cloudfront" : ""
+	}
+}

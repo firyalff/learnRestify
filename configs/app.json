@@ -1,0 +1,13 @@
+{
+	"environment": "development",
+	"development": {
+		"port": 8080,
+		"secret": "",
+		"host": ""
+	},
+	"production": {
+		"port": 8080,
+		"secret": "",
+		"host": ""
+	}
+}

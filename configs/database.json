@@ -1,0 +1,22 @@
+{
+	"development": {
+		"usage": "MySQL",
+		"MySQL" :{
+			"host": "",
+			"username": "",
+			"password": "",
+			"database": "",
+			"charset": "utf8"
+		}
+	},
+	"production": {
+		"usage": "MySQL",
+		"MySQL" :{
+			"host": "",
+			"username": "",
+			"password": "",
+			"database": "",
+			"charset": "utf8"
+		}
+	}
+}

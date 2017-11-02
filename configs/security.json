@@ -1,0 +1,8 @@
+{
+	"development": {
+		"allowedClients": ["*"]
+	}
+	, "production": {
+		"allowedClients": ["*"]
+	}
+}
