@@ -37,18 +37,18 @@ class Routing {
 
 	static attachRouteGroups(server, routeGroups, controllers, middlewares) {
 		routeGroups.forEach( (routeGroup, index)=> {
-			var appliedGroupMdlwrs= this.setGroupMiddlewares(routeGroup.middlewares)
+			var appliedGroupMdlwrs= this.setGroupMiddlewares(routeGroup.middlewares, middlewares)
 			this.applyRoutes(server, routeGroup, appliedGroupMdlwrs, controllers, middlewares)
 		})
 		
 		return true;
 	}
 
-	static setGroupMiddlewares(groupMiddlewares) {
+	static setGroupMiddlewares(groupMiddlewares, availableMiddlewares) {
 		var appliedGroupMdlwrs= [];
 
 		groupMiddlewares.forEach( (middlewares) => {
-			appliedGroupMdlwrs.push(Utils.accessObjectPropertyByString(Mdlwr, middlewares))
+			appliedGroupMdlwrs.push(Utils.accessObjectPropertyByString(availableMiddlewares, middlewares))
 		})
 
 		return appliedGroupMdlwrs;
